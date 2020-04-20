@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LTRouter (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LTRouter (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LTRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LTRouter: 92618e1f6ce8e30f60a076b6e654e7de6bef3069
+
+PODFILE CHECKSUM: 19643e32952c9801859703df600c9ba0797b6718
+
+COCOAPODS: 1.8.3
